@@ -1,0 +1,22 @@
+<div class="pega-login-div">
+<mat-card class="pega-login-card">
+  <mat-card-header>
+    <mat-card-title><h1>Login with Pega</h1></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+      <form class="pega-login-form" (submit)=doLogin()>
+          <mat-form-field class="pega-login-full-width">
+            <input matInput placeholder="User Name" id="userName" type="text" [formControl]="pxTextInputControl" (change)="fieldChanged($event)">
+          </mat-form-field>
+      </form>
+      <form class="pega-login-form" (submit)=doLogin()>
+          <mat-form-field class="pega-login-full-width">
+            <input matInput placeholder="Password" id="password" type="text" [formControl]="pxTextInputControl" type="password" (change)="fieldChanged($event)">
+          </mat-form-field>
+      </form>
+  </mat-card-content>
+  <mat-card-actions class="pega-login-actions">
+    <button mat-raised-button color="primary" (click)=attemptLogin() >Login</button>
+  </mat-card-actions>
+</mat-card>
+</div>
