@@ -4,3 +4,11 @@
 .mat-toolbar.mat-primary {
   background: #DAA520;
 }
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  height: 44px;
+}
+
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+  background-color: #DAA520;
+}
