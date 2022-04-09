@@ -25,7 +25,7 @@
     "@angular/router": "^6.1.10",
     "@types/lodash": "^4.14.121",
     "material-design-icons-iconfont": "^3.0.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
